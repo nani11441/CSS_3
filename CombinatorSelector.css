@@ -1,0 +1,28 @@
+            /* Desendenmt combinator Selector */
+            /* #div_one p {
+                color: aqua;
+                padding: 20px;
+            } */
+            /* Child Combinator Selector */
+            
+            #div_one>p {
+                color: blueviolet;
+            }
+            
+            #div_two>h4 {
+                color: brown;
+            }
+            /* Adjacent_sibling */
+            
+            h4+p {
+                color: green;
+            }
+            /* general _sibling */
+            
+            h4~p {
+                color: chocolate;
+                padding: 2px;
+                background-color: blue;
+                border-radius: 30px;
+                text-align: center;
+            }
