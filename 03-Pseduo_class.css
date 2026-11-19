@@ -1,8 +1,63 @@
-img:hover {
-    border: 2px solid orange;
-}
-
-input:focus {
-    color: brown;
-    background-color: aqua;
-}
+                        img:hover {
+                            border: 2px solid orange;
+                        }
+                        
+                        input:focus {
+                            color: brown;
+                            background-color: aqua;
+                        }
+                        
+                        a:visited {
+                            color: blueviolet;
+                        }
+                        
+                        a:link {
+                            color: blue;
+                        }
+                        
+                        a:active {
+                            color: brown;
+                        }
+                        
+                        div>p:first-child {
+                            color: chartreuse;
+                        }
+                        
+                        div>p:last-child {
+                            color: chocolate;
+                        }
+                        /* nth-child  */
+                        
+                        div>p:nth-child(3) {
+                            color: cornflowerblue;
+                        }
+                        
+                        div>p:nth-child(4n) {
+                            background-color: crimson;
+                        }
+                        
+                        div>p:nth-child(even) {
+                            text-align: center;
+                        }
+                        
+                        div>p:nth-child(odd) {
+                            margin: 5px;
+                            color: darkgreen;
+                        }
+                        /* checked */
+                        
+                        input:checked+label {
+                            color: gold;
+                            background-color: black;
+                            border-radius: 5px;
+                            padding: 4px;
+                        }
+                        /* not */
+                        
+                        ul>li:not(.exclude) {
+                            color: darkred
+                        }
+                        
+                        ul>li:not(#exclude) {
+                            color: lawngreen;
+                        }
