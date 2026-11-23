@@ -19,6 +19,14 @@ border: 20px red solid;
 }
 */
 
-img {
-    border: dashed 10px pink;
+div>span:first-child {
+    border: 15px pink dashed;
+}
+
+div>span:nth-child(2) {
+    border: 10px solid orange;
+}
+
+#Coke {
+    border: 15px dotted red;
 }

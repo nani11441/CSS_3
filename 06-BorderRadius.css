@@ -1,0 +1,12 @@
+aside {
+    height: 150px;
+    width: 150px;
+    border: 5px green solid;
+    background-color: aqua;
+    border-radius: 15px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 70px;
+    border-radius: 50px 60px 20px 10px;
+}
