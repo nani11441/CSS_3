@@ -9,5 +9,5 @@ p {
     width: 500px;
     box-sizing: content-box;
     box-sizing: border-box;
-    box-shadow: 20px solid black;
+    box-shadow: 20px 30px 10px 2px black;
 }
