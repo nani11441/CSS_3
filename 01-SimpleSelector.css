@@ -2,6 +2,7 @@
  
  p {
      color: aqua;
+     padding: 10px;
  }
  /* id selector */
  
@@ -20,7 +21,9 @@
  h3 {
      text-align: center;
      background-color: brown;
-     border-radius: 100%;
+     border-radius: 50px;
+     padding: 20px;
+     margin: 10px;
  }
  /* Universal Slector */
  
