@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* rgb colors */
+
+#rgb {
+    height: 300px;
+    width: 350px;
+    border: 3px solid black;
+    margin: 30px;
+    background-color: chartreuse;
+    background-color: rgb(red green blue);
+    background-color: rgb(255 0 0);
+    background-color: rgb(0 255 0);
+    background-color: rgb(0 0 255);
+    box-shadow: 10px 10px 30px 10px gray;
+}
+
+
+/* rgba Colors */
+
+#color {
+    height: 300px;
+    width: 350px;
+    border: 3px solid black;
+    margin: 30px;
+    background-color: rgba(0, 255, 0, 0.5);
+    box-shadow: 20px 20px 10px 15px;
+}
+
+
+/* Hex-code or hexa decimal code */
+
+#hex {
+    height: 300px;
+    width: 350px;
+    border: 3px solid black;
+    margin: 60px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    background-color: #ff0000;
+    background-color: #00ff00;
+    background-color: #000fff;
+}
