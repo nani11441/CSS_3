@@ -1,0 +1,56 @@
+                        * {
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+                        }
+                        
+                        body {
+                            /* border: 3px solid green;
+                height: 100vh;
+                color: white;
+                margin: 20px;
+                padding: 30px;
+                background-color: rgba(0, 255, 0, 0.3);
+                background-color: #00ffff;
+                /* Absolute image */
+                            /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBVdVHUBlix6kNBk5t9I2kylD6OM8Y8obHeySv9mSA03hxUsCpf6fYF38W&s=10); */
+                            /* realtive image */
+                            background-image: url(./waterfall.jpg);
+                            /* Backgroung repeat */
+                            /* background-repeat: repeat;
+                background-repeat: repeat-x;
+                background-repeat: repeat-y;
+                background-repeat: no-repeat;
+                /* backgroung positions */
+                            /* background-position: top left;
+                background-position: top center;
+                background-position: top right;
+                background-position: center left;
+                background-position: center center;
+                background-position: center right;
+                background-position: bottom left;
+                background-position: bottom right;
+                background-position: bottom center;
+                background-position: bottom left;
+                background-position: left;
+                background-position: right;
+                background-position: top;
+                background-position: bottom;
+                /* Background-Position px values */
+                            /* background-size: 700px 800px;
+                            background-size: 5000px 6000px;
+                            background-size: 1000px;
+                            background-size: 1400px auto;
+                            background-size: contain;
+                            background-size: cover; */
+                            background-position: center;
+                            background-size: 3000px auto;
+                            background-attachment: scroll;
+                            background-attachment: fixed;
+                            background: green url(./waterfall.jpg) no-repeat center fixed;
+                            background-size: 2000px;
+                        }
+                        
+                        p {
+                            font-size: 70px;
+                        }
