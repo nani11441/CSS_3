@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    border: 2px solid black;
+    background: linear-gradient(green, yellow, silver, black, red, blue);
+    background: linear-gradient(to top, green, yellow, silver, black, red, blue);
+    background: linear-gradient(to bottom, green, yellow, silver, black, red, blue);
+    background: linear-gradient( top right, green, yellow, silver, black, red, blue);
+    background: linear-gradient(to top left, green, yellow, silver, black, red, blue);
+    background: linear-gradient(to bottom left, green, yellow, silver, black, red, blue);
+    background: linear-gradient(to bottom right, green, yellow, silver, black, red, blue);
+    background: linear-gradient(to right, green, yellow, silver, black, red, blue);
+    background: repeating-linear-gradient(green 0% 5%, yellow 5% 10%, silver 10% 15%, black 15% 20%, red 20% 25%, blue 25% 30%);
+}
