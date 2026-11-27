@@ -7,6 +7,7 @@
 body {
     height: 100vh;
     border: 2px solid black;
+    /* linerar-gradiant */
     background: linear-gradient(green, yellow, silver, black, red, blue);
     background: linear-gradient(to top, green, yellow, silver, black, red, blue);
     background: linear-gradient(to bottom, green, yellow, silver, black, red, blue);
@@ -15,5 +16,22 @@ body {
     background: linear-gradient(to bottom left, green, yellow, silver, black, red, blue);
     background: linear-gradient(to bottom right, green, yellow, silver, black, red, blue);
     background: linear-gradient(to right, green, yellow, silver, black, red, blue);
-    background: repeating-linear-gradient(green 0% 5%, yellow 5% 10%, silver 10% 15%, black 15% 20%, red 20% 25%, blue 25% 30%);
+    background: repeating-linear-gradient(green 0% 5%, yellow 5% 10%, silver 10% 15%, black, red 20% 25%, blue 25% 30%);
+    /* Radial-gradient */
+    background: radial-gradient(circle, silver, black);
+    background: radial-gradient(circle, silver 0% 2%, black 2% 3%);
+    background: repeating-radial-gradient(circle, white 0% 4%, black 4% 8%);
+    /* Conic-gradiant */
+    background: conic-gradient(black, silver, orange, blue, green);
+    background: conic-gradient(black 0% 5%, silver 5% 10%, orange 10% 25%, blue 25% 40%, green 40% 48%);
+    background: repeating-conic-gradient(black 0deg 5deg, silver 5deg 10deg, orange 10deg 25deg, blue 25deg 40deg, green 40deg 48deg);
+}
+
+#pie_chart {
+    height: 450px;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background: repeating-conic-gradient(black 0deg 5deg, silver 5deg 10deg, orange 10deg 25deg, blue 25deg 40deg, green 40deg 48deg);
+    background: conic-gradient(black 0% 5%, orange 5% 10%, red 10% 25%, yellow 25% 40%, silver 40% 48%);
 }
