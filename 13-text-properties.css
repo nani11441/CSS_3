@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p {
+    /* text-decoretion-line */
+    text-decoration-line: overline;
+    text-decoration-line: underline;
+    text-decoration-line: line-through;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+#text {
+    /* text-decoration thickness */
+    text-decoration-thickness: 3px;
+    text-decoration-style: wavy;
+    text-decoration-style: solid;
+    text-decoration-style: dashed;
+    text-decoration-style: dotted;
+    text-decoration-style: double;
+    /* text-decoretion-color */
+    text-decoration-color: silver;
+    text-decoration: 2px red solid;
+}
+
+#textident {
+    /* text-indent */
+    text-indent: 50px;
+    /* line-height */
+    line-height: 40px;
+    /* text-transform */
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    /* text-Shadow */
+    text-shadow: 5px 5px red 10px;
+    /* letter-Spacing */
+    letter-spacing: 10px;
+    /* word-spacing */
+    word-spacing: 10px;
+}
+
+h1 {
+    /* text-align */
+    text-align: center;
+    text-align: right;
+    text-align: left;
+    text-align: justify;
+    /* text-align -last */
+    text-align-last: left;
+    text-align-last: center;
+    text-align-last: right;
+}
